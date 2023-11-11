@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    internal class RealCustomer:Customer
+    internal class GercekMusteri : Musteri
     {
         public string TcNo { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string Adi { get; set; }
+        public string Soyadi { get; set; }
     }
 }

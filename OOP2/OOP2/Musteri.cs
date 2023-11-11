@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP3
+namespace OOP2
 {
-    internal interface CreditManager
+    internal class Musteri
     {
-         void Calculate();
+        public int Id { get; set; }
+        public string MusteriNo { get; set; }
     }
 }

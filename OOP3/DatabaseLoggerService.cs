@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP2
+namespace OOP3
 {
-    internal class CustomerManager
+    internal class DatabaseLoggerService : ILoggerService
     {
-        public void Add(Customer customer) 
+        public void Log()
         {
-        
-        
+            Console.WriteLine("Veritabanina loglandi.");
         }
     }
 }

@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP3
+namespace OOP2
 {
-    internal class DBLoggerService:IloggerService
+    //Is Siniflari - Business classes
+    internal class MusteriManager
     {
-        public void Log()
+        public void Add(GercekMusteri musteri) 
         {
-            Console.WriteLine("Veritabanına Loglandı.");
+                    
         }
     }
-    
 }

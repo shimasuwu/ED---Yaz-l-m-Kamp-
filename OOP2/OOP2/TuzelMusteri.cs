@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    internal class LegalCustomer:Customer
+    internal class TuzelMusteri : Musteri //inheritance
     {
-        public int CompanyName { get; set; }
-        public string TaxNo { get; set; }
+        public string SirketAdi { get; set; }
+        public string VergiNo { get; set; }
     }
 }
